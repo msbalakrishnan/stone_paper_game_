@@ -1,0 +1,55 @@
+body{
+    background-size: 100% 100%;
+     background-attachment: fixed;
+
+     background-image: radial-gradient(circle at center center, rgb(143, 39, 176) 0%, rgb(143, 39, 176) 11%,rgb(128, 38, 169) 11%, rgb(128, 38, 169) 13%,rgb(113, 38, 163) 13%, rgb(113, 38, 163) 17%,rgb(98, 37, 156) 17%, rgb(98, 37, 156) 28%,rgb(83, 37, 150) 28%, rgb(83, 37, 150) 40%,rgb(68, 36, 143) 40%, rgb(68, 36, 143) 72%,rgb(53, 36, 137) 72%, rgb(53, 36, 137) 81%,rgb(38, 35, 130) 81%, rgb(38, 35, 130) 100%);
+ 
+ }
+ /*  for game results and choosen box  */
+ h1,h2{
+     color: antiquewhite;
+     text-align: center;
+     border-bottom: 5px double yellow;
+ }
+ /* here design the text for rules  */
+ h3{
+     text-align: center;
+     color: aqua;
+ }
+ /* for two column layout  */
+ .container1{
+     display: flex;
+     justify-content: center;
+ }
+ .box1,.box2{
+     border: 6px double wheat ;
+     width: 300px;
+     height: 560px;
+ }
+ /* for game symbols  */
+ .gamepic{
+     width: 150px;
+     height: 150px;
+     margin:0 calc(50% - 75px);
+ }
+ /* for pic of game rules  */
+
+ .rules-pic{
+     height: 400px;
+     width: 400px;
+ }
+ /* for center the rules img and text .  */
+ .rules{
+   display: flex;
+   justify-content: center;
+ }
+ /* button  */
+ button{
+     width: 100px;
+     height: 40px;
+     color: white;
+     font-size: 25px;
+     background-color: yellow;
+     margin: 0 calc(50% - 50px);
+
+ }
