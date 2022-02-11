@@ -22,31 +22,42 @@ function res() {
     var s1="mm"+e;
     document.getElementById(s1).style.boxShadow="greenyellow 0 0 15px";
     document.getElementById(s1).style.border=" 5px solid greenyellow";
+    if (num1==undefined) {
+        document.getElementById("re").innerHTML="You did't select.. ";
+        document.getElementById("re").style.backgroundColor="rgb(78, 238, 29)";
+
+    }
     if(num1==e){
         document.getElementById("re").innerHTML="Game Tie.. ";
+        document.getElementById("re").style.backgroundColor="rgb(78, 238, 29)";
+
     }
     if (num1==1 && e==3) {
         document.getElementById("re").innerHTML="you Won the Game .. ";
+        document.getElementById("re").style.backgroundColor="green";
+
         
     }
      if (num1==1 && e==2) {
         document.getElementById("re").innerHTML="you lost the Game .. ";
-        
+        document.getElementById("re").style.backgroundColor="red";
     }
      if (num1==2 && e==1) {
         document.getElementById("re").innerHTML="you  won the Game.. ";
+        document.getElementById("re").style.backgroundColor="green";
         
     }
      if (num1==2 && e==3) {
         document.getElementById("re").innerHTML="you lost the Game .. ";
-        
+        document.getElementById("re").style.backgroundColor="red";
     }
      if (num1==3 && e==1) {
         document.getElementById("re").innerHTML="you lost the Game .. ";
-
+        document.getElementById("re").style.backgroundColor="red";
     }
      if (num1==3 && e==2) {
         document.getElementById("re").innerHTML="you Won the Game .. ";
+        document.getElementById("re").style.backgroundColor="green";
         
     }
     // after clicking the play button we can change the play button to reload button
